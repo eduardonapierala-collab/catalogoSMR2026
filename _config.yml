@@ -1,6 +1,6 @@
 title: "CATÀLOGO SMR "
 author: "RORI"
-description: "My blog"
+description: "Catàlogo de Trajes de vestir para hombres"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -13,7 +13,7 @@ show_frame: true                # display a grey frame on large screens
 show_sidebar: true             # show a sidebar instead of the usual header
 show_minimal: false             # remove all clutter
 
-#show_frame: "/assets/images/background.svg"
+show_frame: "/assets/images/background.svg"
 
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
