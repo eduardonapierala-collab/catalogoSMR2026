@@ -1,9 +1,11 @@
 <link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 58em)">
 <aside style="display: none">
 
-<img src="{{ '/assets/logo-SMR-negro.png' | relative_url }}" alt="Descripción de la imagen">
+
   
   <nav>
+<img src="{{ '/assets/logo-SMR-negro.png' | relative_url }}" alt="Descripción de la imagen">
+    
   {% assign keys = 'navigation,external,footer' | split: ',' %}
   {% for key in keys %}
   {%- for item in site[key] -%}
@@ -18,9 +20,6 @@
   {%- endfor -%}
   {%- endfor -%}
 
-
-
-    
   </nav>
   
   <footer>{{ site.description }}</footer>
