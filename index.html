@@ -2,11 +2,106 @@
 layout: default
 title: "Home"
 ---
-<p uk-margin>
-    <a class="uk-button uk-button-default" href="#">Link</a>
-    <button class="uk-button uk-button-default">Button</button>
-    <button class="uk-button uk-button-default" disabled>Disabled</button>
-</p>
+
+
+<div uk-filter="target: .js-filter">
+
+    <ul class="uk-subnav uk-subnav-pill">
+        <li class="uk-active" uk-filter-control><a href="#">All</a></li>
+        <li uk-filter-control="[data-color='trajes']"><a href="#">Trajes</a></li>
+        <li uk-filter-control="[data-color='sacos']"><a href="#">Sacos</a></li>
+        <li uk-filter-control="[data-color='camisas']"><a href="#">Camisas</a></li>
+    </ul>
+
+    <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
+        <li data-color="trajes">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <a href="indexplantilla-gema.html">
+                    <img src="image/rcs/pag8-T1901.PNG" width="429" height="643" alt=""></a>
+                <div class="uk-position-small uk-position-center uk-overlay uk-overlay-default"><h4 class="uk-heading-small">T1901</h4></div>
+            </div>
+        </li>
+        <li data-color="sacos">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/rigo.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">Rigo</div>
+            </div>
+        </li>
+        <li data-color="trajes">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/veyron.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">Veyron</div>
+            </div>
+        </li>
+        <li data-color="sacos">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/carmelo.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">Carmelo</div>
+            </div>
+        </li>
+        <li data-color="camisas">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/laalon.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">Laalon</div>
+            </div>
+        </li>
+        <li data-color="camisas">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/violeta.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">AAA</div>
+            </div>
+        </li>
+        <li data-color="sacos">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/king.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">King</div>
+            </div>
+        </li>
+        <li data-color="camisas">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/violeta.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">AAA</div>
+            </div>
+        </li>
+        <li data-color="sacos">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/king.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">King</div>
+            </div>
+        </li>
+        <li data-color="trajes">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/sting.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">Sting</div>
+            </div>
+        </li>
+        <li data-color="sacos">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/king.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">King</div>
+            </div>
+        </li>
+        <li data-color="camisas">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <img src="image/rcs/laalon.PNG" width="429" height="643" alt="">
+                <div class="uk-position-small uk-position-bottom-center uk-overlay uk-overlay-default">Laalon</div>
+            </div>
+        </li>
+    </ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 {% if site.show_excerpts %}
   {% for post in site.posts %}
     <article>
