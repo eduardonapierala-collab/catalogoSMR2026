@@ -2,7 +2,6 @@
 title: "Welcome to Jekyll"
 layout: post
 ---
-div uk-filter="target: .js-filter">
 
     <div class="uk-grid-small uk-flex-middle" uk-grid>
         <div class="uk-width-expand">
@@ -114,5 +113,5 @@ div uk-filter="target: .js-filter">
         </li>
     </ul>
 
-</div>
+
 
