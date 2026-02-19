@@ -1,6 +1,6 @@
 ---
 title: "Grupos"
-layout: postal
+layout: post
 ---
 <div uk-filter="target: .js-filter">
 
