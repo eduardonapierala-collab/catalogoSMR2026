@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Jekyll"
-layout: post
+title: "Grupos"
+layout: postal
 ---
 <div uk-filter="target: .js-filter">
 
