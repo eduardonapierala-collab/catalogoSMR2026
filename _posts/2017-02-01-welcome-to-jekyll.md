@@ -2,116 +2,103 @@
 title: "Welcome to Jekyll"
 layout: post
 ---
+<div uk-filter="target: .js-filter">
 
-    <div class="uk-grid-small uk-flex-middle" uk-grid>
-        <div class="uk-width-expand">
-
-            <div class="uk-grid-small uk-grid-divider uk-child-width-auto" uk-grid>
-                <div>
-                    <ul class="uk-subnav uk-subnav-pill" uk-margin>
-                        <li class="uk-active" uk-filter-control><a href="#">All</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul class="uk-subnav uk-subnav-pill" uk-margin>
-                        <li uk-filter-control="[data-color='white']"><a href="#">White</a></li>
-                        <li uk-filter-control="[data-color='blue']"><a href="#">Blue</a></li>
-                        <li uk-filter-control="[data-color='black']"><a href="#">Black</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul class="uk-subnav uk-subnav-pill" uk-margin>
-                        <li uk-filter-control="[data-size='small']"><a href="#">Small</a></li>
-                        <li uk-filter-control="[data-size='medium']"><a href="#">Medium</a></li>
-                        <li uk-filter-control="[data-size='large']"><a href="#">Large</a></li>
-                    </ul>
-                </div>
-            </div>
-
+    <div class="uk-grid-small uk-grid-divider uk-child-width-auto" uk-grid>
+        <div>
+            <ul class="uk-subnav uk-subnav-pill" uk-margin>
+                <li class="uk-active" uk-filter-control><a href="#">All</a></li>
+            </ul>
         </div>
-        <div class="uk-width-auto uk-text-nowrap">
-
-
-            <span class="uk-active" uk-filter-control="sort: data-name"><a class="uk-icon-link" href="#" uk-icon="icon: arrow-down" aria-label="Sort ascending"></a></span>
-            <span uk-filter-control="sort: data-name; order: desc"><a class="uk-icon-link" href="#" uk-icon="icon: arrow-up" aria-label="Sort descending"></a></span>
-
+        <div>
+            <ul class="uk-subnav uk-subnav-pill" uk-margin>
+                <li uk-filter-control="filter: [data-color='white']; group: data-color"><a href="#">White</a></li>
+                <li uk-filter-control="filter: [data-color='blue']; group: data-color"><a href="#">Blue</a></li>
+                <li uk-filter-control="filter: [data-color='black']; group: data-color"><a href="#">Black</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="uk-subnav uk-subnav-pill" uk-margin>
+                <li uk-filter-control="filter: [data-size='small']; group: size"><a href="#">Small</a></li>
+                <li uk-filter-control="filter: [data-size='medium']; group: size"><a href="#">Medium</a></li>
+                <li uk-filter-control="filter: [data-size='large']; group: size"><a href="#">Large</a></li>
+            </ul>
         </div>
     </div>
 
     <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid="masonry: true">
-        <li data-color="white" data-size="large" data-name="A">
+        <li data-color="white" data-size="large">
             <div class="uk-card uk-card-default uk-card-body">
                 <canvas width="600" height="800"></canvas>
-                <div class="uk-position-center">A</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="blue" data-size="small" data-name="B">
+        <li data-color="blue" data-size="small">
             <div class="uk-card uk-card-primary uk-card-body">
                 <canvas width="600" height="400"></canvas>
-                <div class="uk-position-center">B</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="white" data-size="medium" data-name="C">
+        <li data-color="white" data-size="medium">
             <div class="uk-card uk-card-default uk-card-body">
                 <canvas width="600" height="600"></canvas>
-                <div class="uk-position-center">C</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="white" data-size="small" data-name="D">
+        <li data-color="white" data-size="small">
             <div class="uk-card uk-card-default uk-card-body">
                 <canvas width="600" height="400"></canvas>
-                <div class="uk-position-center">D</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="black" data-size="medium" data-name="E">
+        <li data-color="black" data-size="medium">
             <div class="uk-card uk-card-secondary uk-card-body">
                 <canvas width="600" height="600"></canvas>
-                <div class="uk-position-center">E</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="black" data-size="small" data-name="F">
+        <li data-color="black" data-size="small">
             <div class="uk-card uk-card-secondary uk-card-body">
                 <canvas width="600" height="400"></canvas>
-                <div class="uk-position-center">F</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="blue" data-size="medium" data-name="G">
+        <li data-color="blue" data-size="medium">
             <div class="uk-card uk-card-primary uk-card-body">
                 <canvas width="600" height="600"></canvas>
-                <div class="uk-position-center">G</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="black" data-size="large" data-name="H">
+        <li data-color="black" data-size="large">
             <div class="uk-card uk-card-secondary uk-card-body">
                 <canvas width="600" height="800"></canvas>
-                <div class="uk-position-center">H</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="blue" data-size="large" data-name="I">
+        <li data-color="blue" data-size="large">
             <div class="uk-card uk-card-primary uk-card-body">
                 <canvas width="600" height="800"></canvas>
-                <div class="uk-position-center">I</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="white" data-size="large" data-name="J">
+        <li data-color="white" data-size="large">
             <div class="uk-card uk-card-default uk-card-body">
                 <canvas width="600" height="800"></canvas>
-                <div class="uk-position-center">J</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="blue" data-size="medium" data-name="K">
+        <li data-color="blue" data-size="medium">
             <div class="uk-card uk-card-primary uk-card-body">
                 <canvas width="600" height="600"></canvas>
-                <div class="uk-position-center">K</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
-        <li data-color="black" data-size="small" data-name="L">
+        <li data-color="black" data-size="small">
             <div class="uk-card uk-card-secondary uk-card-body">
                 <canvas width="600" height="400"></canvas>
-                <div class="uk-position-center">L</div>
+                <div class="uk-position-center">Item</div>
             </div>
         </li>
     </ul>
 
-
-
+</div>
