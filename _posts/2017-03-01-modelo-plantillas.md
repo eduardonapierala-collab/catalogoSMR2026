@@ -42,18 +42,17 @@ layout: post
 
 
 
-<div class="uk-section uk-background-muted"><!---- /CATALOGO-01 ----->
-    <div class="uk-container uk-container-xlarge">
+
 <div class="uk-grid-match uk-grid-small uk-text-center" uk-grid>
 
 
-
+<!--<img src="{{ '/assets/images/T1910.jpg' | relative_url }}" alt="Descripción de la imagen" style="width: 100%; height: auto;">-->
 
 <div class="uk-width-1-2@m">
     <div class="uk-card uk-card-body ">
         <div>
             <div class="uk-inline uk-dark">
-                <img src="image/rcs/pag8-T1901.PNG" 
+                <img src="/assets/images/T1910.jpg" 
                      width="600" 
                      height="800" 
                      alt="" 
@@ -210,8 +209,7 @@ layout: post
 
 
 
-</div>
-</div>
+
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
