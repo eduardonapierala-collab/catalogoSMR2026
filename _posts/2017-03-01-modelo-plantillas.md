@@ -46,17 +46,13 @@ layout: post
 <div class="uk-grid-match uk-grid-small uk-text-center" uk-grid>
 
 
-<img src="{{ '/assets/images/T1910.jpg' | relative_url }}" alt="Descripción de la imagen" style="width: 600; height: 800; uk-scrollspy="cls: uk-animation-slide-left; delay: 500">
+<!--<img src="{{ '/assets/images/T1910.jpg' | relative_url }}" alt="Descripción de la imagen" style="width: 100%; height: auto;">-->
 
 <div class="uk-width-1-2@m">
     <div class="uk-card uk-card-body ">
         <div>
             <div class="uk-inline uk-dark">
-                <img src="/assets/images/T1910.jpg" 
-                     width="600" 
-                     height="800" 
-                     alt="" 
-                     uk-scrollspy="cls: uk-animation-slide-left; delay: 500">
+            <img src="{{ '/assets/images/T1910.jpg' | relative_url }}" alt="Descripción de la imagen" style="width: 100%; height: auto;">
 
                 <a class="uk-position-absolute uk-transform-center" style="left: 27%; top: 27%" href="#" uk-marker></a>
 
