@@ -3,7 +3,7 @@ title: "Welcome to Jekyll"
 layout: post
 ---
 
-Y<nav class="uk-navbar-container">
+<nav class="uk-navbar-container">
     <div class="uk-container uk-text-bold">
         <div uk-navbar>
 
