@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll"
+title: "Modelos de trajes"
 layout: post
 ---
 
@@ -46,7 +46,7 @@ layout: post
 <div class="uk-grid-match uk-grid-small uk-text-center" uk-grid>
 
 
-<!--<img src="{{ '/assets/images/T1910.jpg' | relative_url }}" alt="Descripción de la imagen" style="width: 100%; height: auto;">-->
+<img src="{{ '/assets/images/T1910.jpg' | relative_url }}" alt="Descripción de la imagen" style="width: 600; height: 800; uk-scrollspy="cls: uk-animation-slide-left; delay: 500">
 
 <div class="uk-width-1-2@m">
     <div class="uk-card uk-card-body ">
